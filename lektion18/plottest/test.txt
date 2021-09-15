@@ -1,0 +1,9 @@
+Dåliga:
+
+/temp
+$money
+measurement/slow sensors/temp
+
+Bra:
+temp
+money
