@@ -11,4 +11,8 @@ class DadService:
         resp = urllib.request.urlopen(req)
         data = resp.read()
         jsonData = json.loads(data)
+
+        if len(jsonData['joke']) > 10000:
+            raise ValueError("fel eller")
+
         return jsonData['joke']
